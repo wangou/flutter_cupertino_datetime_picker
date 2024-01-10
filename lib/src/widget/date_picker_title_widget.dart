@@ -33,6 +33,7 @@ class DatePickerTitleWidget extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: <Widget>[
           _renderCancelWidget(context),
+          Text('选择日期和时间',style: TextStyle(fontSize: 13,color: Color(0xff333333)),),
           _renderConfirmWidget(context),
         ],
       ),
